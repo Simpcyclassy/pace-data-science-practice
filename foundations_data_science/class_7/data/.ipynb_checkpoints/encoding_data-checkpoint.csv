@@ -1,0 +1,11 @@
+Temperature,Color,Target
+Hot,Red,1
+Cold,Yellow,1
+Very Hot,Blue,1
+Warm,Blue,0
+Hot,Red,1
+Warm,Yellow,0
+Warm,Red,1
+Hot,Yellow,0
+Hot,Yellow,1
+Cold,Yellow,1
