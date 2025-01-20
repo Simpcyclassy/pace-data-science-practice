@@ -1,0 +1,30 @@
+<employees>
+	<employee>
+		<employee_name>Smith</employee_name>
+		<department>Sales</department>
+		<salary>80000</salary>
+		<hire_date>2020-01-15</hire_date>
+	</employee>
+
+	<employee>
+		<employee_name>Allen</employee_name>
+		<department>HR</department>
+		<salary>60000</salary>
+		<hire_date>2009-02-12</hire_date>
+	</employee>
+
+	<employee>
+		<employee_name>Jones</employee_name>
+		<department>IT</department>
+		<salary>90000</salary>
+		<hire_date>2010-01-01</hire_date>
+	</employee>
+	
+	<employee>
+		<employee_id>7304</employee_id>
+		<employee_name>Ford</employee_name>
+		<department>IT</department>
+		<salary>95000</salary>
+		<hire_date>2019-01-05</hire_date>
+	</employee>
+</employees>
