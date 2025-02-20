@@ -1,0 +1,63 @@
+2025-02-17 22:40:23,839 [INFO] Logging to: logs/etl.log
+2025-02-17 22:40:23,841 [INFO] ✅ Successfully created: raw_data/ (RAW_DATA_DIR)
+2025-02-17 22:40:23,841 [INFO] ✅ Successfully created: processed_data/ (PROCESSED_DATA_DIR)
+2025-02-17 22:40:23,841 [INFO] ✅ Successfully created: logs/ (LOG_DIR)
+2025-02-17 22:40:23,842 [INFO] ✅ Successfully created: temp/ (TEMP_DIR)
+2025-02-17 22:40:23,842 [INFO] ✅ Directory structure set up successfully!
+2025-02-17 22:40:58,145 [INFO] Logging to: logs/etl.log
+2025-02-17 22:40:58,146 [INFO] 📥 Starting download from https://elasticbeanstalk-us-east-2-340729127361.s3.us-east-2.amazonaws.com/trafficdata.tgz...
+2025-02-17 22:40:58,713 [INFO] ✅ Download successful: temp/trafficdata.tgz
+2025-02-17 22:41:29,439 [INFO] Logging to: logs/etl.log
+2025-02-17 22:41:29,441 [INFO] 📦 Extracting temp/trafficdata.tgz into raw_data...
+2025-02-17 22:41:29,452 [INFO] ✅ Extraction successful! Files extracted to: raw_data
+2025-02-17 22:41:29,453 [INFO] 📂 Extracted files: fileformats.txt, payment-data.txt, ._tollplaza-data.tsv, tollplaza-data.tsv, ._vehicle-data.csv, vehicle-data.csv
+2025-02-17 22:43:43,259 [INFO] Logging to: logs/etl.log
+2025-02-17 22:43:43,261 [INFO] 🔄 Transforming data from raw_data/vehicle-data.csv...
+2025-02-17 22:43:43,343 [INFO] ✅ Transformation successful! Transformed data saved to processed_data/csv_d.csv
+2025-02-17 22:43:43,344 [INFO] 📊 Transformed dataset contains 10000 rows and 4 columns.
+2025-02-17 22:44:19,616 [INFO] Logging to: logs/etl.log
+2025-02-17 22:44:19,617 [INFO] 🔄 Extracting columns from raw_data/tollplaza-data.tsv...
+2025-02-17 22:44:19,645 [INFO] ✅ Extraction successful! Data saved to processed_data/tsv_d.csv
+2025-02-17 22:44:19,645 [INFO] 📊 Extracted Data Summary: 10000 rows, 3 columns
+2025-02-17 22:44:45,929 [INFO] Logging to: logs/etl.log
+2025-02-17 22:44:45,930 [INFO] 🔄 Extracting fixed-width columns from raw_data/payment-data.txt...
+2025-02-17 22:44:45,964 [INFO] ✅ Extraction successful! Data saved to processed_data/fixed_width_d.csv
+2025-02-17 22:44:45,964 [INFO] 📊 Extracted Data Summary: 10000 rows, 2 columns
+2025-02-17 22:45:09,021 [INFO] Logging to: logs/etl.log
+2025-02-17 22:45:09,023 [INFO] 📂 Loading extracted files for combination...
+2025-02-17 22:45:09,069 [INFO] ✅ Combination successful! Combined data saved to processed_data/combined_data.csv
+2025-02-17 22:45:09,070 [INFO] 📊 Final dataset: 10000 rows, 9 columns
+2025-02-17 22:45:28,059 [INFO] Logging to: logs/etl.log
+2025-02-17 22:45:28,060 [INFO] 🔄 Transforming 'Vehicle type' column in processed_data/combined_data.csv...
+2025-02-17 22:45:28,103 [INFO] ✅ Transformation successful! Transformed data saved to processed_data/combined_data_transformed.csv
+2025-02-17 22:45:28,104 [INFO] 📊 Transformed dataset contains 10000 rows and 9 columns.
+2025-02-17 23:27:27,695 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:27,697 [INFO] ✅ Successfully created: raw_data/ (RAW_DATA_DIR)
+2025-02-17 23:27:27,698 [INFO] ✅ Successfully created: processed_data/ (PROCESSED_DATA_DIR)
+2025-02-17 23:27:27,699 [INFO] ✅ Successfully created: logs/ (LOG_DIR)
+2025-02-17 23:27:27,699 [INFO] ✅ Successfully created: temp/ (TEMP_DIR)
+2025-02-17 23:27:27,700 [INFO] ✅ Directory structure set up successfully!
+2025-02-17 23:27:34,198 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:34,199 [INFO] 📦 Extracting temp/trafficdata.tgz into raw_data...
+2025-02-17 23:27:34,214 [INFO] ✅ Extraction successful! Files extracted to: raw_data
+2025-02-17 23:27:34,215 [INFO] 📂 Extracted files: fileformats.txt, payment-data.txt, ._tollplaza-data.tsv, tollplaza-data.tsv, ._vehicle-data.csv, vehicle-data.csv
+2025-02-17 23:27:37,071 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:37,073 [INFO] 🔄 Transforming data from raw_data/vehicle-data.csv...
+2025-02-17 23:27:37,166 [INFO] ✅ Transformation successful! Transformed data saved to processed_data/csv_d.csv
+2025-02-17 23:27:37,168 [INFO] 📊 Transformed dataset contains 10000 rows and 4 columns.
+2025-02-17 23:27:39,924 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:39,925 [INFO] 🔄 Extracting columns from raw_data/tollplaza-data.tsv...
+2025-02-17 23:27:39,956 [INFO] ✅ Extraction successful! Data saved to processed_data/tsv_d.csv
+2025-02-17 23:27:39,958 [INFO] 📊 Extracted Data Summary: 10000 rows, 3 columns
+2025-02-17 23:27:42,669 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:42,670 [INFO] 🔄 Extracting fixed-width columns from raw_data/payment-data.txt...
+2025-02-17 23:27:42,708 [INFO] ✅ Extraction successful! Data saved to processed_data/fixed_width_d.csv
+2025-02-17 23:27:42,709 [INFO] 📊 Extracted Data Summary: 10000 rows, 2 columns
+2025-02-17 23:27:45,449 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:45,450 [INFO] 📂 Loading extracted files for combination...
+2025-02-17 23:27:45,494 [INFO] ✅ Combination successful! Combined data saved to processed_data/combined_data.csv
+2025-02-17 23:27:45,495 [INFO] 📊 Final dataset: 10000 rows, 9 columns
+2025-02-17 23:27:48,425 [INFO] Logging to: logs/etl.log
+2025-02-17 23:27:48,426 [INFO] 🔄 Transforming 'Vehicle type' column in processed_data/combined_data.csv...
+2025-02-17 23:27:48,476 [INFO] ✅ Transformation successful! Transformed data saved to processed_data/combined_data_transformed.csv
+2025-02-17 23:27:48,477 [INFO] 📊 Transformed dataset contains 10000 rows and 9 columns.
