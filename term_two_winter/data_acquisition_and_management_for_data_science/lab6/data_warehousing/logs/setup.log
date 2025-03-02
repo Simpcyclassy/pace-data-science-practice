@@ -1,0 +1,14 @@
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing/scripts
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing/logs
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing/config
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing/sql_queries
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created directory: data_warehousing/temp
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/scripts/download_data.py
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/scripts/execute_queries.py
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/scripts/log_handler.py
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/scripts/db_setup.py
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/config/db_config.json
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/logs/download.log
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Created file: data_warehousing/logs/execution.log
+2025-03-02 00:41:10 [INFO] 2025-03-02 00:41:10 Data Warehousing directories and files are set up successfully!

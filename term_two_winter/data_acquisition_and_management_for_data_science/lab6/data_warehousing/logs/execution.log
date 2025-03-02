@@ -1,0 +1,33 @@
+2025-03-02 01:43:13 [INFO] 📄 Executing Star Schema Creation: data_warehousing/sql_queries/star-schema.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [INFO] ✅ Successfully executed: data_warehousing/sql_queries/star-schema.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [INFO] 🔍 Verifying data in table: dimcustomer
+2025-03-02 01:43:13 [ERROR] ❌ Failed to verify table dimcustomer: relation "dimcustomer" does not exist
+LINE 1: SELECT COUNT(*) FROM dimcustomer;
+                             ^
+
+2025-03-02 01:43:13 [INFO] 📄 Executing DimCustomer Table Load: data_warehousing/sql_queries/dimcustomer.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for DimCustomer Table Load: relation "DimCustomer" does not exist
+LINE 1: INSERT INTO "DimCustomer"(customerid,category,country,indust...
+                    ^
+
+2025-03-02 01:43:13 [INFO] 📄 Executing DimMonth Table Load: data_warehousing/sql_queries/dimmonth.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for DimMonth Table Load: relation "DimMonth" does not exist
+LINE 1: INSERT INTO "DimMonth"
+                    ^
+
+2025-03-02 01:43:13 [INFO] 📄 Executing FactBilling Table Load: data_warehousing/sql_queries/factbilling.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for FactBilling Table Load: relation "FactBilling" does not exist
+LINE 1: INSERT INTO "FactBilling"
+                    ^
+
+2025-03-02 01:43:13 [INFO] 📄 Executing Final Data Verification: data_warehousing/sql_queries/verify.sql
+2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
+2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for Final Data Verification: syntax error at or near "\"
+LINE 1: \echo "Checking row in DimMonth Table"
+        ^
+
