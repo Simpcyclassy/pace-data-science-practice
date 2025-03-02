@@ -1,0 +1,236 @@
+2025-02-25 00:12:15 [INFO] <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-02-25 00:12:15 [INFO] Probing node bootstrap-0 broker version
+2025-02-25 00:12:15 [INFO] <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-02-25 00:12:15 [INFO] Broker version identified as 2.6.0
+2025-02-25 00:12:15 [INFO] Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-02-25 00:12:15 [WARNING] group_id is None: disabling auto-commit.
+2025-02-25 00:12:15 [INFO] Updating subscribed topics to: ('weather-data',)
+2025-02-25 00:12:15 [INFO] ✅ Connected to Kafka topic: weather-data
+2025-02-25 00:12:15 [INFO] Connecting to database: weather_db on localhost:5432
+2025-02-25 00:12:15 [INFO] 📋 Existing tables in database: ['weather_data']
+2025-02-25 00:12:15 [INFO] Updated partition assignment: [TopicPartition(topic='weather-data', partition=0)]
+2025-02-25 00:12:15 [INFO] <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-02-25 00:12:15 [INFO] <BrokerConnection node_id=0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-02-25 00:12:15 [INFO] <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -21, 'wind_speed': 18, 'humidity': 26, 'timestamp': '2025-02-25 06:11:45'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 1 row(s) into database.
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 17, 'wind_speed': 13, 'humidity': 95, 'timestamp': '2025-02-25 06:11:51'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 2 row(s) into database.
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -1, 'wind_speed': 9, 'humidity': 82, 'timestamp': '2025-02-25 06:11:56'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 3 row(s) into database.
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 13, 'wind_speed': 15, 'humidity': 41, 'timestamp': '2025-02-25 06:12:01'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 4 row(s) into database.
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 14, 'wind_speed': 20, 'humidity': 42, 'timestamp': '2025-02-25 06:12:06'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 5 row(s) into database.
+2025-02-25 00:12:15 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 25, 'wind_speed': 25, 'humidity': 88, 'timestamp': '2025-02-25 06:12:11'}
+2025-02-25 00:12:15 [INFO] ✅ Inserted 6 row(s) into database.
+2025-02-25 00:12:16 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -5, 'wind_speed': 22, 'humidity': 49, 'timestamp': '2025-02-25 06:12:16'}
+2025-02-25 00:12:16 [INFO] ✅ Inserted 7 row(s) into database.
+2025-02-25 00:12:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 5, 'wind_speed': 5, 'humidity': 63, 'timestamp': '2025-02-25 06:12:21'}
+2025-02-25 00:12:21 [INFO] ✅ Inserted 8 row(s) into database.
+2025-02-25 00:12:26 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -6, 'wind_speed': 14, 'humidity': 66, 'timestamp': '2025-02-25 06:12:26'}
+2025-02-25 00:12:26 [INFO] ✅ Inserted 9 row(s) into database.
+2025-02-25 00:12:31 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -6, 'wind_speed': 0, 'humidity': 77, 'timestamp': '2025-02-25 06:12:31'}
+2025-02-25 00:12:31 [INFO] ✅ Inserted 10 row(s) into database.
+2025-02-25 00:12:36 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -11, 'wind_speed': 5, 'humidity': 44, 'timestamp': '2025-02-25 06:12:36'}
+2025-02-25 00:12:36 [INFO] ✅ Inserted 11 row(s) into database.
+2025-02-25 00:12:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 3, 'wind_speed': 1, 'humidity': 70, 'timestamp': '2025-02-25 06:12:41'}
+2025-02-25 00:12:41 [INFO] ✅ Inserted 12 row(s) into database.
+2025-02-25 00:12:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 13, 'wind_speed': 21, 'humidity': 43, 'timestamp': '2025-02-25 06:12:46'}
+2025-02-25 00:12:46 [INFO] ✅ Inserted 13 row(s) into database.
+2025-02-25 00:12:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 5, 'wind_speed': 2, 'humidity': 56, 'timestamp': '2025-02-25 06:12:51'}
+2025-02-25 00:12:51 [INFO] ✅ Inserted 14 row(s) into database.
+2025-02-25 00:12:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 3, 'wind_speed': 5, 'humidity': 66, 'timestamp': '2025-02-25 06:12:56'}
+2025-02-25 00:12:56 [INFO] ✅ Inserted 15 row(s) into database.
+2025-02-25 00:13:01 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 25, 'wind_speed': 29, 'humidity': 45, 'timestamp': '2025-02-25 06:13:01'}
+2025-02-25 00:13:01 [INFO] ✅ Inserted 16 row(s) into database.
+2025-02-25 00:13:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -25, 'wind_speed': 21, 'humidity': 34, 'timestamp': '2025-02-25 06:13:06'}
+2025-02-25 00:13:06 [INFO] ✅ Inserted 17 row(s) into database.
+2025-02-25 00:13:11 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -30, 'wind_speed': 0, 'humidity': 28, 'timestamp': '2025-02-25 06:13:11'}
+2025-02-25 00:13:11 [INFO] ✅ Inserted 18 row(s) into database.
+2025-02-25 00:13:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 12, 'wind_speed': 1, 'humidity': 40, 'timestamp': '2025-02-25 06:13:16'}
+2025-02-25 00:13:16 [INFO] ✅ Inserted 19 row(s) into database.
+2025-02-25 00:13:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 8, 'wind_speed': 2, 'humidity': 37, 'timestamp': '2025-02-25 06:13:21'}
+2025-02-25 00:13:21 [INFO] ✅ Inserted 20 row(s) into database.
+2025-02-25 00:13:26 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 23, 'wind_speed': 31, 'humidity': 74, 'timestamp': '2025-02-25 06:13:26'}
+2025-02-25 00:13:26 [INFO] ✅ Inserted 21 row(s) into database.
+2025-02-25 00:13:31 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 7, 'wind_speed': 30, 'humidity': 35, 'timestamp': '2025-02-25 06:13:31'}
+2025-02-25 00:13:31 [INFO] ✅ Inserted 22 row(s) into database.
+2025-02-25 00:13:36 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 14, 'wind_speed': 7, 'humidity': 46, 'timestamp': '2025-02-25 06:13:36'}
+2025-02-25 00:13:36 [INFO] ✅ Inserted 23 row(s) into database.
+2025-02-25 00:13:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 15, 'wind_speed': 10, 'humidity': 20, 'timestamp': '2025-02-25 06:13:41'}
+2025-02-25 00:13:41 [INFO] ✅ Inserted 24 row(s) into database.
+2025-02-25 00:13:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -30, 'wind_speed': 33, 'humidity': 34, 'timestamp': '2025-02-25 06:13:46'}
+2025-02-25 00:13:46 [INFO] ✅ Inserted 25 row(s) into database.
+2025-02-25 00:13:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 13, 'wind_speed': 23, 'humidity': 57, 'timestamp': '2025-02-25 06:13:51'}
+2025-02-25 00:13:51 [INFO] ✅ Inserted 26 row(s) into database.
+2025-02-25 00:13:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 10, 'wind_speed': 27, 'humidity': 50, 'timestamp': '2025-02-25 06:13:56'}
+2025-02-25 00:13:56 [INFO] ✅ Inserted 27 row(s) into database.
+2025-02-25 00:14:01 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 9, 'wind_speed': 2, 'humidity': 62, 'timestamp': '2025-02-25 06:14:01'}
+2025-02-25 00:14:01 [INFO] ✅ Inserted 28 row(s) into database.
+2025-02-25 00:14:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -16, 'wind_speed': 29, 'humidity': 43, 'timestamp': '2025-02-25 06:14:06'}
+2025-02-25 00:14:06 [INFO] ✅ Inserted 29 row(s) into database.
+2025-02-25 00:14:11 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 21, 'wind_speed': 35, 'humidity': 28, 'timestamp': '2025-02-25 06:14:11'}
+2025-02-25 00:14:11 [INFO] ✅ Inserted 30 row(s) into database.
+2025-02-25 00:14:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 16, 'wind_speed': 11, 'humidity': 41, 'timestamp': '2025-02-25 06:14:16'}
+2025-02-25 00:14:16 [INFO] ✅ Inserted 31 row(s) into database.
+2025-02-25 00:14:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 18, 'wind_speed': 25, 'humidity': 95, 'timestamp': '2025-02-25 06:14:21'}
+2025-02-25 00:14:21 [INFO] ✅ Inserted 32 row(s) into database.
+2025-02-25 00:14:26 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 22, 'wind_speed': 35, 'humidity': 74, 'timestamp': '2025-02-25 06:14:26'}
+2025-02-25 00:14:26 [INFO] ✅ Inserted 33 row(s) into database.
+2025-02-25 00:14:31 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 17, 'wind_speed': 11, 'humidity': 52, 'timestamp': '2025-02-25 06:14:31'}
+2025-02-25 00:14:31 [INFO] ✅ Inserted 34 row(s) into database.
+2025-02-25 00:14:36 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -13, 'wind_speed': 10, 'humidity': 73, 'timestamp': '2025-02-25 06:14:36'}
+2025-02-25 00:14:36 [INFO] ✅ Inserted 35 row(s) into database.
+2025-02-25 00:14:41 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 2, 'wind_speed': 24, 'humidity': 30, 'timestamp': '2025-02-25 06:14:41'}
+2025-02-25 00:14:41 [INFO] ✅ Inserted 36 row(s) into database.
+2025-02-25 00:14:46 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 11, 'wind_speed': 16, 'humidity': 96, 'timestamp': '2025-02-25 06:14:46'}
+2025-02-25 00:14:46 [INFO] ✅ Inserted 37 row(s) into database.
+2025-02-25 00:14:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 14, 'wind_speed': 30, 'humidity': 41, 'timestamp': '2025-02-25 06:14:51'}
+2025-02-25 00:14:51 [INFO] ✅ Inserted 38 row(s) into database.
+2025-02-25 00:14:56 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 15, 'wind_speed': 26, 'humidity': 42, 'timestamp': '2025-02-25 06:14:56'}
+2025-02-25 00:14:56 [INFO] ✅ Inserted 39 row(s) into database.
+2025-02-25 00:15:01 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -21, 'wind_speed': 8, 'humidity': 60, 'timestamp': '2025-02-25 06:15:01'}
+2025-02-25 00:15:01 [INFO] ✅ Inserted 40 row(s) into database.
+2025-02-25 00:15:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 12, 'wind_speed': 47, 'humidity': 79, 'timestamp': '2025-02-25 06:15:06'}
+2025-02-25 00:15:06 [INFO] ✅ Inserted 41 row(s) into database.
+2025-02-25 00:15:11 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -1, 'wind_speed': 19, 'humidity': 75, 'timestamp': '2025-02-25 06:15:11'}
+2025-02-25 00:15:11 [INFO] ✅ Inserted 42 row(s) into database.
+2025-02-25 00:15:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 9, 'wind_speed': 9, 'humidity': 66, 'timestamp': '2025-02-25 06:15:16'}
+2025-02-25 00:15:16 [INFO] ✅ Inserted 43 row(s) into database.
+2025-02-25 00:15:21 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 26, 'wind_speed': 37, 'humidity': 55, 'timestamp': '2025-02-25 06:15:21'}
+2025-02-25 00:15:21 [INFO] ✅ Inserted 44 row(s) into database.
+2025-02-25 00:15:26 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -9, 'wind_speed': 6, 'humidity': 65, 'timestamp': '2025-02-25 06:15:26'}
+2025-02-25 00:15:26 [INFO] ✅ Inserted 45 row(s) into database.
+2025-02-25 00:15:31 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -1, 'wind_speed': 30, 'humidity': 27, 'timestamp': '2025-02-25 06:15:31'}
+2025-02-25 00:15:31 [INFO] ✅ Inserted 46 row(s) into database.
+2025-02-25 00:15:36 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 20, 'wind_speed': 16, 'humidity': 88, 'timestamp': '2025-02-25 06:15:36'}
+2025-02-25 00:15:36 [INFO] ✅ Inserted 47 row(s) into database.
+2025-02-25 00:15:41 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 9, 'wind_speed': 24, 'humidity': 79, 'timestamp': '2025-02-25 06:15:41'}
+2025-02-25 00:15:41 [INFO] ✅ Inserted 48 row(s) into database.
+2025-02-25 00:15:46 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 2, 'wind_speed': 29, 'humidity': 91, 'timestamp': '2025-02-25 06:15:46'}
+2025-02-25 00:15:46 [INFO] ✅ Inserted 49 row(s) into database.
+2025-02-25 00:15:51 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -28, 'wind_speed': 7, 'humidity': 31, 'timestamp': '2025-02-25 06:15:51'}
+2025-02-25 00:15:51 [INFO] ✅ Inserted 50 row(s) into database.
+2025-02-25 00:15:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -4, 'wind_speed': 30, 'humidity': 71, 'timestamp': '2025-02-25 06:15:56'}
+2025-02-25 00:15:56 [INFO] ✅ Inserted 51 row(s) into database.
+2025-02-25 00:16:01 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -8, 'wind_speed': 48, 'humidity': 44, 'timestamp': '2025-02-25 06:16:01'}
+2025-02-25 00:16:01 [INFO] ✅ Inserted 52 row(s) into database.
+2025-02-25 00:16:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 14, 'wind_speed': 48, 'humidity': 77, 'timestamp': '2025-02-25 06:16:06'}
+2025-02-25 00:16:06 [INFO] ✅ Inserted 53 row(s) into database.
+2025-02-25 00:16:11 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 6, 'wind_speed': 41, 'humidity': 32, 'timestamp': '2025-02-25 06:16:11'}
+2025-02-25 00:16:11 [INFO] ✅ Inserted 54 row(s) into database.
+2025-02-25 00:16:16 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 29, 'wind_speed': 32, 'humidity': 76, 'timestamp': '2025-02-25 06:16:16'}
+2025-02-25 00:16:16 [INFO] ✅ Inserted 55 row(s) into database.
+2025-02-25 00:16:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 7, 'wind_speed': 6, 'humidity': 42, 'timestamp': '2025-02-25 06:16:21'}
+2025-02-25 00:16:21 [INFO] ✅ Inserted 56 row(s) into database.
+2025-02-25 00:16:26 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -8, 'wind_speed': 11, 'humidity': 37, 'timestamp': '2025-02-25 06:16:26'}
+2025-02-25 00:16:26 [INFO] ✅ Inserted 57 row(s) into database.
+2025-02-25 00:16:31 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 17, 'wind_speed': 21, 'humidity': 48, 'timestamp': '2025-02-25 06:16:31'}
+2025-02-25 00:16:31 [INFO] ✅ Inserted 58 row(s) into database.
+2025-02-25 00:16:36 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 2, 'wind_speed': 8, 'humidity': 35, 'timestamp': '2025-02-25 06:16:36'}
+2025-02-25 00:16:36 [INFO] ✅ Inserted 59 row(s) into database.
+2025-02-25 00:16:41 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 2, 'wind_speed': 16, 'humidity': 84, 'timestamp': '2025-02-25 06:16:41'}
+2025-02-25 00:16:41 [INFO] ✅ Inserted 60 row(s) into database.
+2025-02-25 00:16:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 3, 'wind_speed': 31, 'humidity': 65, 'timestamp': '2025-02-25 06:16:46'}
+2025-02-25 00:16:46 [INFO] ✅ Inserted 61 row(s) into database.
+2025-02-25 00:16:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 6, 'wind_speed': 1, 'humidity': 71, 'timestamp': '2025-02-25 06:16:51'}
+2025-02-25 00:16:51 [INFO] ✅ Inserted 62 row(s) into database.
+2025-02-25 00:16:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 23, 'wind_speed': 18, 'humidity': 91, 'timestamp': '2025-02-25 06:16:56'}
+2025-02-25 00:16:56 [INFO] ✅ Inserted 63 row(s) into database.
+2025-02-25 00:17:01 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -12, 'wind_speed': 15, 'humidity': 25, 'timestamp': '2025-02-25 06:17:01'}
+2025-02-25 00:17:01 [INFO] ✅ Inserted 64 row(s) into database.
+2025-02-25 00:17:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -8, 'wind_speed': 29, 'humidity': 38, 'timestamp': '2025-02-25 06:17:06'}
+2025-02-25 00:17:06 [INFO] ✅ Inserted 65 row(s) into database.
+2025-02-25 00:17:11 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 9, 'wind_speed': 8, 'humidity': 78, 'timestamp': '2025-02-25 06:17:11'}
+2025-02-25 00:17:11 [INFO] ✅ Inserted 66 row(s) into database.
+2025-02-25 00:17:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -1, 'wind_speed': 9, 'humidity': 54, 'timestamp': '2025-02-25 06:17:16'}
+2025-02-25 00:17:16 [INFO] ✅ Inserted 67 row(s) into database.
+2025-02-25 00:17:21 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 11, 'wind_speed': 14, 'humidity': 36, 'timestamp': '2025-02-25 06:17:21'}
+2025-02-25 00:17:21 [INFO] ✅ Inserted 68 row(s) into database.
+2025-02-25 00:17:26 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 2, 'wind_speed': 24, 'humidity': 72, 'timestamp': '2025-02-25 06:17:26'}
+2025-02-25 00:17:26 [INFO] ✅ Inserted 69 row(s) into database.
+2025-02-25 00:17:31 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 17, 'wind_speed': 32, 'humidity': 43, 'timestamp': '2025-02-25 06:17:31'}
+2025-02-25 00:17:31 [INFO] ✅ Inserted 70 row(s) into database.
+2025-02-25 00:17:36 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 12, 'wind_speed': 20, 'humidity': 79, 'timestamp': '2025-02-25 06:17:36'}
+2025-02-25 00:17:36 [INFO] ✅ Inserted 71 row(s) into database.
+2025-02-25 00:17:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -5, 'wind_speed': 20, 'humidity': 79, 'timestamp': '2025-02-25 06:17:41'}
+2025-02-25 00:17:41 [INFO] ✅ Inserted 72 row(s) into database.
+2025-02-25 00:17:46 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -1, 'wind_speed': 21, 'humidity': 44, 'timestamp': '2025-02-25 06:17:46'}
+2025-02-25 00:17:46 [INFO] ✅ Inserted 73 row(s) into database.
+2025-02-25 00:17:51 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -24, 'wind_speed': 34, 'humidity': 20, 'timestamp': '2025-02-25 06:17:51'}
+2025-02-25 00:17:51 [INFO] ✅ Inserted 74 row(s) into database.
+2025-02-25 00:17:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -4, 'wind_speed': 24, 'humidity': 76, 'timestamp': '2025-02-25 06:17:56'}
+2025-02-25 00:17:56 [INFO] ✅ Inserted 75 row(s) into database.
+2025-02-25 00:18:01 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -24, 'wind_speed': 20, 'humidity': 36, 'timestamp': '2025-02-25 06:18:01'}
+2025-02-25 00:18:01 [INFO] ✅ Inserted 76 row(s) into database.
+2025-02-25 00:18:06 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 7, 'wind_speed': 12, 'humidity': 43, 'timestamp': '2025-02-25 06:18:06'}
+2025-02-25 00:18:06 [INFO] ✅ Inserted 77 row(s) into database.
+2025-02-25 00:18:11 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 27, 'wind_speed': 23, 'humidity': 32, 'timestamp': '2025-02-25 06:18:11'}
+2025-02-25 00:18:11 [INFO] ✅ Inserted 78 row(s) into database.
+2025-02-25 00:18:16 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -26, 'wind_speed': 33, 'humidity': 69, 'timestamp': '2025-02-25 06:18:16'}
+2025-02-25 00:18:16 [INFO] ✅ Inserted 79 row(s) into database.
+2025-02-25 00:18:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 15, 'wind_speed': 13, 'humidity': 51, 'timestamp': '2025-02-25 06:18:21'}
+2025-02-25 00:18:21 [INFO] ✅ Inserted 80 row(s) into database.
+2025-02-25 00:18:26 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 1, 'wind_speed': 21, 'humidity': 72, 'timestamp': '2025-02-25 06:18:26'}
+2025-02-25 00:18:26 [INFO] ✅ Inserted 81 row(s) into database.
+2025-02-25 00:18:31 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -10, 'wind_speed': 22, 'humidity': 49, 'timestamp': '2025-02-25 06:18:31'}
+2025-02-25 00:18:31 [INFO] ✅ Inserted 82 row(s) into database.
+2025-02-25 00:18:36 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -1, 'wind_speed': 20, 'humidity': 41, 'timestamp': '2025-02-25 06:18:36'}
+2025-02-25 00:18:36 [INFO] ✅ Inserted 83 row(s) into database.
+2025-02-25 00:18:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -21, 'wind_speed': 36, 'humidity': 61, 'timestamp': '2025-02-25 06:18:41'}
+2025-02-25 00:18:41 [INFO] ✅ Inserted 84 row(s) into database.
+2025-02-25 00:18:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 19, 'wind_speed': 15, 'humidity': 54, 'timestamp': '2025-02-25 06:18:46'}
+2025-02-25 00:18:46 [INFO] ✅ Inserted 85 row(s) into database.
+2025-02-25 00:18:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 12, 'wind_speed': 25, 'humidity': 75, 'timestamp': '2025-02-25 06:18:51'}
+2025-02-25 00:18:51 [INFO] ✅ Inserted 86 row(s) into database.
+2025-02-25 00:18:56 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -28, 'wind_speed': 16, 'humidity': 59, 'timestamp': '2025-02-25 06:18:56'}
+2025-02-25 00:18:56 [INFO] ✅ Inserted 87 row(s) into database.
+2025-02-25 00:19:01 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 18, 'wind_speed': 22, 'humidity': 99, 'timestamp': '2025-02-25 06:19:01'}
+2025-02-25 00:19:01 [INFO] ✅ Inserted 88 row(s) into database.
+2025-02-25 00:19:06 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -25, 'wind_speed': 49, 'humidity': 39, 'timestamp': '2025-02-25 06:19:06'}
+2025-02-25 00:19:06 [INFO] ✅ Inserted 89 row(s) into database.
+2025-02-25 00:19:11 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 22, 'wind_speed': 27, 'humidity': 40, 'timestamp': '2025-02-25 06:19:11'}
+2025-02-25 00:19:11 [INFO] ✅ Inserted 90 row(s) into database.
+2025-02-25 00:19:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 1, 'wind_speed': 10, 'humidity': 58, 'timestamp': '2025-02-25 06:19:16'}
+2025-02-25 00:19:16 [INFO] ✅ Inserted 91 row(s) into database.
+2025-02-25 00:19:21 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 20, 'wind_speed': 47, 'humidity': 66, 'timestamp': '2025-02-25 06:19:21'}
+2025-02-25 00:19:21 [INFO] ✅ Inserted 92 row(s) into database.
+2025-02-25 00:19:26 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 20, 'wind_speed': 16, 'humidity': 50, 'timestamp': '2025-02-25 06:19:26'}
+2025-02-25 00:19:26 [INFO] ✅ Inserted 93 row(s) into database.
+2025-02-25 00:19:31 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 22, 'wind_speed': 27, 'humidity': 91, 'timestamp': '2025-02-25 06:19:31'}
+2025-02-25 00:19:31 [INFO] ✅ Inserted 94 row(s) into database.
+2025-02-25 00:19:36 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -11, 'wind_speed': 50, 'humidity': 32, 'timestamp': '2025-02-25 06:19:36'}
+2025-02-25 00:19:36 [INFO] ✅ Inserted 95 row(s) into database.
+2025-02-25 00:19:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 3, 'wind_speed': 24, 'humidity': 77, 'timestamp': '2025-02-25 06:19:41'}
+2025-02-25 00:19:41 [INFO] ✅ Inserted 96 row(s) into database.
+2025-02-25 00:19:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 22, 'wind_speed': 3, 'humidity': 71, 'timestamp': '2025-02-25 06:19:46'}
+2025-02-25 00:19:46 [INFO] ✅ Inserted 97 row(s) into database.
+2025-02-25 00:19:51 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -5, 'wind_speed': 13, 'humidity': 79, 'timestamp': '2025-02-25 06:19:51'}
+2025-02-25 00:19:51 [INFO] ✅ Inserted 98 row(s) into database.
+2025-02-25 00:19:56 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': -7, 'wind_speed': 4, 'humidity': 94, 'timestamp': '2025-02-25 06:19:56'}
+2025-02-25 00:19:56 [INFO] ✅ Inserted 99 row(s) into database.
+2025-02-25 00:20:01 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 15, 'wind_speed': 19, 'humidity': 97, 'timestamp': '2025-02-25 06:20:01'}
+2025-02-25 00:20:01 [INFO] ✅ Inserted 100 row(s) into database.
+2025-02-25 00:20:06 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 8, 'wind_speed': 21, 'humidity': 57, 'timestamp': '2025-02-25 06:20:06'}
+2025-02-25 00:20:06 [INFO] ✅ Inserted 101 row(s) into database.
+2025-02-25 00:20:11 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 5, 'wind_speed': 1, 'humidity': 72, 'timestamp': '2025-02-25 06:20:11'}
+2025-02-25 00:20:11 [INFO] ✅ Inserted 102 row(s) into database.
+2025-02-25 00:20:16 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 20, 'wind_speed': 25, 'humidity': 68, 'timestamp': '2025-02-25 06:20:16'}
+2025-02-25 00:20:16 [INFO] ✅ Inserted 103 row(s) into database.
+2025-02-25 00:20:21 [INFO] 📥 Received: {'city': 'Vancouver', 'temperature': 24, 'wind_speed': 27, 'humidity': 97, 'timestamp': '2025-02-25 06:20:21'}
+2025-02-25 00:20:21 [INFO] ✅ Inserted 104 row(s) into database.
+2025-02-25 00:20:26 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -13, 'wind_speed': 37, 'humidity': 22, 'timestamp': '2025-02-25 06:20:26'}
+2025-02-25 00:20:26 [INFO] ✅ Inserted 105 row(s) into database.
+2025-02-25 00:20:31 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 17, 'wind_speed': 32, 'humidity': 67, 'timestamp': '2025-02-25 06:20:31'}
+2025-02-25 00:20:31 [INFO] ✅ Inserted 106 row(s) into database.
+2025-02-25 00:20:36 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -15, 'wind_speed': 17, 'humidity': 79, 'timestamp': '2025-02-25 06:20:36'}
+2025-02-25 00:20:36 [INFO] ✅ Inserted 107 row(s) into database.
+2025-02-25 00:20:41 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -23, 'wind_speed': 41, 'humidity': 32, 'timestamp': '2025-02-25 06:20:41'}
+2025-02-25 00:20:41 [INFO] ✅ Inserted 108 row(s) into database.
+2025-02-25 00:20:46 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': 8, 'wind_speed': 19, 'humidity': 39, 'timestamp': '2025-02-25 06:20:46'}
+2025-02-25 00:20:46 [INFO] ✅ Inserted 109 row(s) into database.
+2025-02-25 00:20:51 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -29, 'wind_speed': 44, 'humidity': 42, 'timestamp': '2025-02-25 06:20:51'}
+2025-02-25 00:20:51 [INFO] ✅ Inserted 110 row(s) into database.
+2025-02-25 00:20:56 [INFO] 📥 Received: {'city': 'Winnipeg', 'temperature': -13, 'wind_speed': 22, 'humidity': 57, 'timestamp': '2025-02-25 06:20:56'}
+2025-02-25 00:20:56 [INFO] ✅ Inserted 111 row(s) into database.

@@ -1,0 +1,12 @@
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created directory: kafka_pipeline/scripts
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created directory: kafka_pipeline/logs
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created directory: kafka_pipeline/config
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created directory: kafka_pipeline/data
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/scripts/producer.py
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/scripts/consumer.py
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/scripts/db_setup.py
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/logs/producer.log
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/logs/consumer.log
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/config/db_config.json
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Created file: kafka_pipeline/data/weather_data_sample.txt
+2025-02-24 10:45:31 [INFO] 2025-02-24 10:45:31 Kafka pipeline directories and files are set up successfully!
