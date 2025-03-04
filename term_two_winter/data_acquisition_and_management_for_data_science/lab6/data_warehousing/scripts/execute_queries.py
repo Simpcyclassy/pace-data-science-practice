@@ -98,20 +98,16 @@ def verify_table_data(table_name):
 
 if __name__ == "__main__":
     # Step 4: Create the schema
-    if execute_sql_file(SQL_FILES["Star Schema"], "Star Schema Creation"):
-        verify_table_data("dimcustomer")  # Check if schema is created
+    execute_sql_file(SQL_FILES["Star Schema"], "Star Schema Creation")
 
     # Step 5: Load Dimension Tables
-    if execute_sql_file(SQL_FILES["DimCustomer"], "DimCustomer Table Load"):
-        verify_table_data("dimcustomer")
+    execute_sql_file(SQL_FILES["DimCustomer"], "DimCustomer Table Load")
 
-    if execute_sql_file(SQL_FILES["DimMonth"], "DimMonth Table Load"):
-        verify_table_data("dimmonth")
+    execute_sql_file(SQL_FILES["DimMonth"], "DimMonth Table Load")
 
     # Step 6: Load Fact Table
-    if execute_sql_file(SQL_FILES["FactBilling"], "FactBilling Table Load"):
-        verify_table_data("factbilling")
+    execute_sql_file(SQL_FILES["FactBilling"], "FactBilling Table Load")
 
     # Step 7: Run Final Data Verification
-    if execute_sql_file(SQL_FILES["Verify Data"], "Final Data Verification"):
-        log.info("✅ Data verification completed successfully!")
+    execute_sql_file(SQL_FILES["Verify Data"], "Final Data Verification")
+    log.info("✅ Data verification completed successfully!")

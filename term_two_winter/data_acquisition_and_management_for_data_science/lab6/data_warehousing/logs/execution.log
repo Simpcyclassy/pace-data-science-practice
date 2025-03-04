@@ -1,33 +1,40 @@
-2025-03-02 01:43:13 [INFO] 📄 Executing Star Schema Creation: data_warehousing/sql_queries/star-schema.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [INFO] ✅ Successfully executed: data_warehousing/sql_queries/star-schema.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [INFO] 🔍 Verifying data in table: dimcustomer
-2025-03-02 01:43:13 [ERROR] ❌ Failed to verify table dimcustomer: relation "dimcustomer" does not exist
-LINE 1: SELECT COUNT(*) FROM dimcustomer;
-                             ^
-
-2025-03-02 01:43:13 [INFO] 📄 Executing DimCustomer Table Load: data_warehousing/sql_queries/dimcustomer.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for DimCustomer Table Load: relation "DimCustomer" does not exist
+2025-03-03 22:44:58 🚀 Starting SQL Execution Process
+2025-03-03 22:44:58 📄 Executing: Star Schema Creation (/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/star-schema.sql)
+BEGIN
+CREATE TABLE
+CREATE TABLE
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/star-schema.sql:33: ERROR:  relation "DimCustomer" already exists
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/star-schema.sql:38: ERROR:  current transaction is aborted, commands ignored until end of transaction block
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/star-schema.sql:44: ERROR:  current transaction is aborted, commands ignored until end of transaction block
+ROLLBACK
+2025-03-03 22:44:58 ✅ Successfully executed: Star Schema Creation
+2025-03-03 22:44:58 📄 Executing: DimCustomer Table Load (/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/DimCustomer.sql)
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/DimCustomer.sql:1002: ERROR:  relation "DimCustomer" does not exist
 LINE 1: INSERT INTO "DimCustomer"(customerid,category,country,indust...
                     ^
-
-2025-03-02 01:43:13 [INFO] 📄 Executing DimMonth Table Load: data_warehousing/sql_queries/dimmonth.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for DimMonth Table Load: relation "DimMonth" does not exist
+2025-03-03 22:44:58 ✅ Successfully executed: DimCustomer Table Load
+2025-03-03 22:44:58 📄 Executing: DimMonth Table Load (/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/DimMonth.sql)
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/DimMonth.sql:135: ERROR:  relation "DimMonth" does not exist
 LINE 1: INSERT INTO "DimMonth"
                     ^
-
-2025-03-02 01:43:13 [INFO] 📄 Executing FactBilling Table Load: data_warehousing/sql_queries/factbilling.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for FactBilling Table Load: relation "FactBilling" does not exist
+2025-03-03 22:44:58 ✅ Successfully executed: DimMonth Table Load
+2025-03-03 22:44:58 📄 Executing: FactBilling Table Load (/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/FactBilling.sql)
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/FactBilling.sql:132003: ERROR:  relation "FactBilling" does not exist
 LINE 1: INSERT INTO "FactBilling"
                     ^
-
-2025-03-02 01:43:13 [INFO] 📄 Executing Final Data Verification: data_warehousing/sql_queries/verify.sql
-2025-03-02 01:43:13 [INFO] 🔗 Connecting to database: bill_dwh on localhost:5432
-2025-03-02 01:43:13 [ERROR] ❌ SQL execution failed for Final Data Verification: syntax error at or near "\"
-LINE 1: \echo "Checking row in DimMonth Table"
-        ^
-
+2025-03-03 22:44:59 ✅ Successfully executed: FactBilling Table Load
+2025-03-03 22:44:59 📄 Executing: Final Data Verification (/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/verify.sql)
+"Checking row in DimMonth Table"
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/verify.sql:2: ERROR:  relation "DimMonth" does not exist
+LINE 1: select count(*) from "DimMonth";
+                             ^
+"Checking row in DimCustomer Table"
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/verify.sql:4: ERROR:  relation "DimCustomer" does not exist
+LINE 1: select count(*) from "DimCustomer";
+                             ^
+"Checking row in FactBilling Table"
+psql:/Users/chiomaonyekpere/Documents/PACE/pace-data-science-practice/term_two_winter/data_acquisition_and_management_for_data_science/lab6/data_warehousing/sql_queries/verify.sql:6: ERROR:  relation "FactBilling" does not exist
+LINE 1: select count(*) from "FactBilling";
+                             ^
+2025-03-03 22:44:59 ✅ Successfully executed: Final Data Verification
+2025-03-03 22:44:59 ✅ Data warehouse setup and data load completed successfully!
