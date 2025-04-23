@@ -1,0 +1,13 @@
+Date,Region,Product Category,Revenue,Profit Margin
+2025-01-01,North,Electronics,12000,30
+2025-01-01,South,Furniture,4000,25
+2025-01-02,East,Office Supplies,9000,20
+2025-01-02,West,Electronics,22500,35
+2025-01-03,North,Furniture,6650,28
+2025-01-03,South,Office Supplies,3000,18
+2025-01-04,East,Electronics,21600,40
+2025-01-04,West,Furniture,2400,22
+2025-01-05,North,Office Supplies,12500,15
+2025-01-05,South,Electronics,40000,38
+2025-01-06,East,Furniture,4500,26
+2025-01-06,West,Office Supplies,3200,17
